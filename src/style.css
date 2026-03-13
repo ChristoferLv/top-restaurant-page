@@ -1,0 +1,225 @@
+body {
+    background-image: url("./images/yasmine-duchesne-XD4Gs2NGy2c-unsplash.jpg");
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #763413;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 0 10px;
+    padding: 10px;
+}
+
+.menu-container,
+.home-container,
+.contact-container {
+    background-color: #763413;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+}
+
+.home-container,
+.contact-container {
+    gap: 30px 0;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.menu-container {
+    width: 70ch;
+    gap: 10px 0;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.home-container {
+    max-width: 75ch;
+}
+
+.contact-container {
+    width: 70ch;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-info {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    padding-left: 10px;
+    justify-self: start;
+    width: 100%;
+
+}
+
+.first-line {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.item-name {
+    font-size: 30px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.ingredients {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item-img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+}
+
+.separator-container {
+    white-space: nowrap;
+    overflow: hidden;
+    flex-grow: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.price {
+    color: #ffde59;
+    font-size: 40px;
+    padding-right: 10px;
+    flex-shrink: 0;
+}
+
+.home-container>* {
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    background-color: #303230;
+    padding: 10px;
+}
+
+.title {
+    font-size: 35px;
+    position: absolute;
+    top: 65px
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0 20px;
+    text-align: center;
+}
+
+button {
+    all: unset;
+    color: white;
+    border: 1px black solid;
+    padding: 8px;
+    background-color: #000;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.selected {
+    color: black;
+    background-color: white;
+}
+
+.contact-item {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #303230;
+}
+
+.contact-container>p {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact-item p:first-child {
+    font-weight: 900;
+}
+
+.contact-item p{
+    padding: 1px;
+}
+
+.ribbon {
+    --r: .5em;
+    /* control the cutout of the ribbon */
+    --c: #c6062f;
+
+    padding-inline: calc(6em + var(--r));
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+    background-image:
+        linear-gradient(var(--c) 70%, #0000 0),
+        linear-gradient(to bottom left, #0000 50%, color-mix(in srgb, var(--c), #000 40%) 51% 84%, #0000 85%);
+    background-position: 0 .15lh;
+    background-size: 100% 1lh;
+    clip-path: polygon(0 .15lh, 100% .15lh, calc(100% - var(--r)) .5lh, 100% .85lh, 100% calc(100% - .15lh), 0 calc(100% - .15lh), var(--r) calc(100% - .5lh), 0 calc(100% - .85lh));
+    /* width: fit-content; you may need this in your real use case */
+    outline: none;
+}
+
+.menu-container .menu-item:nth-child(1) .item-img {
+    background-image: url("./images/amirali-mirhashemian-jh5XyK4Rr3Y-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-container .menu-item:nth-child(2) .item-img {
+    background-image: url("./images/amirali-mirhashemian-JqnuWlHmDfE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-container .menu-item:nth-child(3) .item-img {
+    background-image: url("./images/eiliv-aceron-uBigm8w_MpA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: 0 -40px;
+}
+
+.menu-container .menu-item:nth-child(4) .item-img {
+    background-image: url("./images/amirali-mirhashemian-9hIJ4ZLMnZA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-container .menu-item:nth-child(5) .item-img {
+    background-image: url("./images/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
