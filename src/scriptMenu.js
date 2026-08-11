@@ -6,28 +6,28 @@ export default function generateMenu(root) {
     const menuItems = [
         {
             name: "Burger",
-            price: "R$19,50",
-            ingredients: "Pão de Hamburguer + carne 150g"
+            price: "$3.25",
+            ingredients: "Hamburger bun + 150g of beef patty"
         },
         {
             name: "X-Burger",
-            price: "R$19,50",
-            ingredients: "Pão de Hamburguer + carne 150g + queijo"
+            price: "$4.50",
+            ingredients: "Hamburger bun + 150g of beef patty + cheese"
         },
         {
-            name: "X-Salada",
-            price: "R$19,50",
-            ingredients: "Pão de Hamburguer + carne 150g + queijo + salada"
+            name: "X-Salad",
+            price: "$5.00",
+            ingredients: "Hamburger bun + 150g of beef patty + cheese + salad"
         },
         {
             name: "X-Bacon Egg",
-            price: "R$25,50",
-            ingredients: "Pão de Hamburguer + carne 150g+ queijo + bacon + ovo"
+            price: "$6.50",
+            ingredients: "Hamburger bun + 150g of beef patty + cheese + bacon + egg"
         },
         {
-            name: "X-Tudo",
-            price: "R$19,50",
-            ingredients: "Pão de Hamburguer + carne 150g + queijo + bacon + ovo + presunto + milho"
+            name: "X-Everything",
+            price: "$8.50",
+            ingredients: "Hamburger bun + 150g beef patty + cheese + bacon + egg + ham + corn"
         }
     ];
 
