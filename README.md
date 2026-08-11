@@ -59,6 +59,10 @@ Optional (development with automatic updates):
 - style-loader and css-loader
 - html-loader
 
+## Visualization
+
+<img width="1920" height="919" alt="restaurant page screenshot" src="https://github.com/user-attachments/assets/9c1f807e-0767-43d2-ad1e-defaa0a08af1" />
+
 ## Image Credits
 
 - [Yasmine Duchesne](https://unsplash.com/pt-br/@y_duchesne)
